@@ -1,4 +1,4 @@
-# Advanced Chatbot Project
+#DEEPSEEKWEB
 
 This project implements an advanced chatbot model designed for engaging conversations. The chatbot utilizes state-of-the-art natural language processing techniques to generate human-like responses.
 
@@ -52,7 +52,7 @@ Follow the prompts to interact with the chatbot. Type 'quit' to exit the convers
 
 ## Features
 
-- Engaging and context-aware conversations.
+- Engaging and context-aware conversations. DEEPSEEK-
 - Ability to handle multiple user inputs and maintain conversation history.
 - Customizable settings for model parameters and behavior.
 
