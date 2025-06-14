@@ -37,7 +37,7 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Using device:", device)
 
-    model_name = "deepseek-ai/deepseek-llm-14b-chat"
+     model_name = "deepseek-ai/deepseek-llm-14b-chat"
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True).to(device)
 
