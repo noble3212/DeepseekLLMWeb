@@ -37,11 +37,11 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Using device:", device)
 
-    model_name = "deepseek-ai/deepseek-llm-7b-chat"
+    model_name = "deepseek-ai/deepseek-llm-14b-chat"
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True).to(device)
 
-    print("Welcome to DeepSeek Chatbot! Type 'quit' to exit.")
+    print("Welcome to DeepSeek 14B Chatbot! Type 'quit' to exit.")
     chat_history = []
 
     while True:
