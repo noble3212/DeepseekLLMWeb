@@ -55,6 +55,7 @@ Follow the prompts to interact with the chatbot. Type 'quit' to exit the convers
 - Engaging and context-aware conversations. DEEPSEEK-
 - Ability to handle multiple user inputs and maintain conversation history.
 - Customizable settings for model parameters and behavior.
+- Orginalmodel was able to at one point autoload a older model of deepseek. However, This verison is able in some degree. tokenize the model. train it. And maybe add in orginal data sets. However if you don't have 48gb ram your page file may need increasing. However, you can use the old model. And I will watch it to include a smaller deepseek for now
 
 ## Contributing
 
